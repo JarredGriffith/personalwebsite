@@ -16,6 +16,7 @@ function App() {
     <div>
     <Container className="mid-background">
       <br/>
+      <div className="mainbody">
     <NavBar/>
     <div>
       <br/>
@@ -27,6 +28,7 @@ function App() {
       </Switch>
     </Router>
     
+    </div>
     </div>
     </Container>
     </div>

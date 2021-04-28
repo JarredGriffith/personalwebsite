@@ -1,6 +1,7 @@
 import Jumbotron from 'react-bootstrap/Jumbotron'
 
 function HomeCover (){
+    return (
     <Jumbotron fluid>
     <h1>Fluid jumbotron</h1>
     <p>
@@ -8,4 +9,7 @@ function HomeCover (){
       its parent.
     </p>
 </Jumbotron>
+    )
 }
+
+export default HomeCover; 

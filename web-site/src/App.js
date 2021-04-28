@@ -5,11 +5,12 @@ import {
   //need to get thing from the react router. 
   BrowserRouter as Router,
   Switch,
-  // Route, 
+  Route, 
   // Link, 
   // useRouteMatch
 } from 'react-router-dom'; 
 import Container from 'react-bootstrap/Container'
+import homePage from './components/Home/Mainhome'
 
 function App() {
   return (
@@ -22,9 +23,9 @@ function App() {
       <br/>
     <Router>
       <Switch>
-        {/* <Route path="/players" exact component={PlayerList}/>
-        <Route path="/about" component={About}/>
-        <Route path="/" component={Home}/> */}
+      <Route path="/" component={homePage}/>  
+        {/* <Route path="/about" component={About}/>
+        <Route path="/" component={Home}/>  */}
       </Switch>
     </Router>
     

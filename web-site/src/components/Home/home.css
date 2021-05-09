@@ -1,0 +1,16 @@
+.homecover {
+    padding: 0px;
+    border: 1px black solid;
+    background-image: url("../Photos/FullSizeRender.png");
+    background-size:cover;
+    background-position: center; 
+}
+
+.CoverText{
+    padding: 100px;
+    color:white
+}
+
+.text-Header{
+    text-align: center;
+}

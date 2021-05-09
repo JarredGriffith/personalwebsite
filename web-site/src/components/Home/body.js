@@ -6,8 +6,9 @@ function BodyText() {
 
     return (
         <div>
+          <Row><Col md={{span: 6, offset: 3 }} xs={6} className="text-Header"><h4>Professional Summary</h4></Col></Row>
+          <Row><Col md={{span: 6, offset: 3 }} xs={6}><Bio/></Col></Row>
         <Row>
-        <Col><Bio/></Col>
         <Col>this is a image</Col>
       </Row>
       <Row className="justify-content-md-center">

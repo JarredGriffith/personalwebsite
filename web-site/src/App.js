@@ -15,10 +15,10 @@ import homePage from './components/Home/Mainhome'
 function App() {
   return (
     <div>
-    <Container className="mid-background">
+    <Container fluid className="mid-background">
       <br/>
       <div className="mainbody">
-    <NavBar/>
+    {/* <NavBar/> */}
     <div>
       <br/>
     <Router>

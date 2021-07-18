@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Nav from 'react-bootstrap/esm/Nav';
 import Navbar from 'react-bootstrap/Navbar'
 import "./styles/MainNav.css"
+import Burger from './hamburger/hamburger'
+import Menu from './hamburger/burgermenu'
 
 
 function NavBar() {
@@ -16,11 +18,13 @@ function NavBar() {
           <Nav.Link href="/About">About</Nav.Link>
         </Nav> 
         </div>
-        <div className="Hambuger hide_for_desktop">
+        {/* <div className="Hambuger hide_for_desktop">
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </div> */}
+        <Burger className="hide_for_desktop"></Burger>
+        <Menu></Menu>
       </Navbar>
     ); 
 }

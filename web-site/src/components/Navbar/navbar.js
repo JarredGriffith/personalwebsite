@@ -18,13 +18,8 @@ function NavBar() {
           <Nav.Link href="/About">About</Nav.Link>
         </Nav> 
         </div>
-        {/* <div className="Hambuger hide_for_desktop">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> */}
-        <Burger className="hide_for_desktop"></Burger>
-        <Menu></Menu>
+        {/* <Burger className="hide_for_desktop"></Burger> */}
+        {/* <Menu></Menu> */}
       </Navbar>
     ); 
 }

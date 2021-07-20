@@ -11,12 +11,14 @@ import {
 } from 'react-router-dom'; 
 import Container from 'react-bootstrap/Container'
 import homePage from './components/Home/Mainhome'
+import Menu from './components/Navbar/hamburger/burgermenu'
 
 function App() {
   return (
-    <div>
-    <Container fluid className="mid-background">
-      <br/>
+    <div id="App">
+    {/* <Container fluid className="mid-background" id="App"> */}
+    {/* <Menu className="hide_for_desktop" pageWrapId={"page-wrap"} outerContainerId={"App"} /> */}
+    <NavBar/>
       <div className="mainbody">
     {/* <NavBar/> */}
     <div>
@@ -31,7 +33,7 @@ function App() {
     
     </div>
     </div>
-    </Container>
+    {/* </Container> */}
     </div>
   );
 }
